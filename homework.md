@@ -256,7 +256,7 @@ WHERE id IN (1, 2, 3);
 
 DELETE FROM movies
 WHERE year 2015
---?? doesnt work
+
 
 DELETE FROM movies
 WHERE id >= a_value AND id <= another_value;
