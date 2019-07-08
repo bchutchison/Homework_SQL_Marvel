@@ -255,7 +255,7 @@ DELETE FROM movies
 WHERE id IN (1, 2, 3);
 
 DELETE FROM movies
-WHERE year IN (SELECT 2015 FROM year);
+WHERE year 2015
 --?? doesnt work
 
 DELETE FROM movies
